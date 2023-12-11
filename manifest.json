@@ -1,8 +1,8 @@
 {
-  "manifest_version": 3,
-  "version": "2.4.2",
-  "name": "Skiovox Helper - Andromeda Edition",
-  "description": "A helper for the Skiovox exploit -- remade by Skiovox",
+  "manifest_version": 2,
+  "version": "2.4.1",
+  "name": "Skiovox Helper",
+  "description": "A helper for the Skiovox exploit -- read more at skiovox.com",
   "icons": {
     "128": "icon.png"
   },
@@ -76,7 +76,8 @@
     "scripts": [
       "/background/commands.js",
       "/background/setup.js",
-      "/background/webstore-fix.js"
+      "/background/webstore-fix.js",
+      "/background/battery-warning.js"
     ]
   },
   "chrome_url_overrides": {
@@ -86,12 +87,7 @@
     "commands",
     "tabs",
     "sessions",
-  ],
-  "host_permissions": [
     "<all_urls>"
-  ],
-  "optional_host_permissions": [
-    "*://*/*",
   ],
   "content_scripts": [
     {
