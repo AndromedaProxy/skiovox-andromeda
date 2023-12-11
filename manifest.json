@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
-  "version": "2.4.1",
-  "name": "Skiovox Helper",
-  "description": "A helper for the Skiovox exploit -- read more at skiovox.com",
+  "manifest_version": 3,
+  "version": "2.4.2",
+  "name": "Skiovox Helper - Andromeda Edition",
+  "description": "A helper for the Skiovox exploit -- remade by Skiovox",
   "icons": {
     "128": "icon.png"
   },
