@@ -86,7 +86,12 @@
     "commands",
     "tabs",
     "sessions",
+  ],
+  "host_permissions": [
     "<all_urls>"
+  ],
+  "optional_host_permissions": [
+    "*://*/*",
   ],
   "content_scripts": [
     {
