@@ -96,6 +96,10 @@ class BackgroundController {
         return Boolean(localStorage.savedBackground)
     }
 
+    setdefaultBg() {
+        localStorage.setItem("savedBackground", "none")
+    }
+
     displayColor(color) {
         let red = parseInt(color.substring(1,3), 16)
         let green = parseInt(color.substring(3,5), 16)
@@ -134,5 +138,6 @@ class BackgroundController {
         return (yiq >= 128) ? TextColors.BLACK : TextColors.WHITE;
     }
 }
+    
 
 export { BackgroundController }
